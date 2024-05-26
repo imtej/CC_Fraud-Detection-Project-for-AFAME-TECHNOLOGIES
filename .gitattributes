@@ -1,2 +1,4 @@
 *.csv filter=lfs diff=lfs merge=lfs -text
 Given[[:space:]]Raw[[:space:]]Data/*.csv filter=lfs diff=lfs merge=lfs -text
+Given[[:space:]]Raw[[:space:]]Data/fraudTest.csv filter=lfs diff=lfs merge=lfs -text
+Given[[:space:]]Raw[[:space:]]Data/fraudTrain.csv filter=lfs diff=lfs merge=lfs -text
