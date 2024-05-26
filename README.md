@@ -59,7 +59,7 @@ Some Other typical Models for Imbalance data
 
 ### Evaluation Metrics & Performances of different trained models
 
-![HomepageUI](./different_Models_Evaluation Metrics.png)
+![HomepageUI](./Screen Shots Models Performance attributes/precision&recall-XGBOOST_RepeatedKFold CV/Conf_mat_Report1.png)
 
 
 ### Best Models
