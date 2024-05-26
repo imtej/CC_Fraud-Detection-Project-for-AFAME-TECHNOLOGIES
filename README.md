@@ -59,11 +59,43 @@ Some Other typical Models for Imbalance data
 
 ### Evaluation Metrics & Performances of different trained models
 
-![Evaluation Metrics & Performances of different trained models](./different_Models_Evaluation_Metrics.png)
+![xyz](./different_Models_Evaluation_Metrics.png)
 
 
 ### Best Models
-1.
-2. 
+1. For Best Recall -->> `XGBOOST model with Random Oversampling with RepeatedKFold CV`
 
+   - Accuracy:   0.996809527
+   - Precision:  0.64
+   - Recall:     0.96
+   - ROC_AOC:    0.999117511
+   - Threshold:  0.195022404193878
+     
+3. For Best in over all Good Precision and Descent Recall-->> `XGBOOST model with RepeatedKFold CV` without any oversampling
+
+   - Accuracy:    0.999125454
+   - Precision:   0.96
+   - Recall:      0.87
+   - ROC_AOC: 		0.99951423
+   - Threshold: 	0.006252252
+   
 ### ScreenShots of Evaluation Metrics & Performances of Best Models
+
+##### XGBOOST model with Random Oversampling with RepeatedKFold CV
+
+![HomepageUI](./Screenshots/Stock_Pred_LSTM_Home1.png)
+
+![HomepageUI](./Screenshots/Stock_Pred_LSTM_Home1.png)
+
+![HomepageUI](./Screenshots/Stock_Pred_LSTM_Home1.png)
+
+
+#####  `XGBOOST model with RepeatedKFold CV` without any oversampling
+
+![HomepageUI](./Screenshots/Stock_Pred_LSTM_Home1.png)
+
+![HomepageUI](./Screenshots/Stock_Pred_LSTM_Home1.png)
+
+![HomepageUI](./Screenshots/Stock_Pred_LSTM_Home1.png)
+
+
