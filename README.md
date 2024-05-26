@@ -50,7 +50,7 @@ Dataset Link :
 7. **Hyperparameter Tuning**: GridSearchCV / RandomizedSearchCV are used for hyperparameter tuning.
 
 Some Other typical Models for Imbalance data
-  - Isoalation Forest
+  - Isolation Forest
   - Local Outlier Factor
 
 #### Model Saving
@@ -58,6 +58,8 @@ Some Other typical Models for Imbalance data
 
 
 ### Evaluation Metrics & Performances of different trained models
+
+![HomepageUI](./different_Models_Evaluation Metrics.png)
 
 
 ### Best Models
