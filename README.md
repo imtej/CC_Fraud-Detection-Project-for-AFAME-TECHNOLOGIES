@@ -56,6 +56,8 @@ Some Other typical Models for Imbalance data
 #### Model Saving
 **Model Saving**: The best performing models are saved using `joblib`.
 
+#### Found Important Features:
+Features `category`, `amt`(means transaction amount), `transaction_hour`, `age`, `gender`, `merchant_encoded`, and `city_encoded` have significant impact on the predictions of the fraud and legitimate transactions.
 
 ### Evaluation Metrics & Performances of different trained models
 
@@ -83,19 +85,20 @@ Some Other typical Models for Imbalance data
 
 ##### XGBOOST model with Random Oversampling with RepeatedKFold CV
 
-![HomepageUI](./Screenshots/Stock_Pred_LSTM_Home1.png)
 
-![HomepageUI](./Screenshots/Stock_Pred_LSTM_Home1.png)
+![Conf_mat_Report2](./Screen_Shots_Models_Performance_attributes/recall-XGBOOST_Random_Oversampling_with_RepeatedKFold_CV/Conf_mat_Report2.png)
 
-![HomepageUI](./Screenshots/Stock_Pred_LSTM_Home1.png)
+![ROC_AUC2](./Screen_Shots_Models_Performance_attributes/recall-XGBOOST_Random_Oversampling_with_RepeatedKFold_CV/ROC_AUC2.png)
+
+![Feature_Imp2](./Screen_Shots_Models_Performance_attributes/recall-XGBOOST_Random_Oversampling_with_RepeatedKFold_CV/Feature_Imp2.png)
 
 
 #####  `XGBOOST model with RepeatedKFold CV` without any oversampling
 
-![HomepageUI](./Screenshots/Stock_Pred_LSTM_Home1.png)
 
-![HomepageUI](./Screenshots/Stock_Pred_LSTM_Home1.png)
+![Conf_mat_Report1](./Screen_Shots_Models_Performance_attributes/precision&recall-XGBOOST_RepeatedKFold_CV/Conf_mat_Report1.png)
 
-![HomepageUI](./Screenshots/Stock_Pred_LSTM_Home1.png)
+![ROC_AUC1](./Screen_Shots_Models_Performance_attributes/precision&recall-XGBOOST_RepeatedKFold_CV/ROC_AUC1.png)
 
+![Feature_Imp1](./Screen_Shots_Models_Performance_attributes/precision&recall-XGBOOST_RepeatedKFold_CV/Feature_Imp1.png)
 
